@@ -1015,6 +1015,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F561A0D75EE00F525B9 /* macOS-Framework.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/External/libgit2/include",
 					"$(inherited)",
@@ -1045,6 +1046,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F561A0D75EE00F525B9 /* macOS-Framework.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/External/libgit2/include",
 					"$(inherited)",
